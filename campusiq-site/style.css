@@ -299,6 +299,21 @@ li {
   margin: 0;
 }
 
+.footer-credits {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  block-size: 1.25rem;
+  inline-size: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
 /* 7. Hero Section */
 .hero-section {
   padding-block: 4rem 6rem;
