@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Privacy Policy for UniMate, an academic productivity application for Ghanaian university students, developed by WesleyConsults.">
+  <title>Privacy Policy — UniMate</title>
+  
+  <!-- Preloads & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header-wrapper">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" id="nav-brand">
+        <img src="assets/logo.png" alt="UniMate Logo" class="logo-img" width="36" height="36">
+        <span>UniMate</span>
+      </a>
+      
+      <!-- Navigation Links -->
+      <nav id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="privacy.html" class="active">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="mailto:wesleyconsults@gmail.com">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu Button -->
+      <button class="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false" id="hamburger-btn">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Legal Main Content -->
+  <main class="legal-main">
+    <div class="prose-container">
+      <article class="legal-content">
+        <header class="legal-header">
+          <h1 class="legal-title">Privacy Policy</h1>
+          <div class="legal-meta">
+            <p><strong>Effective Date:</strong> 23 May 2026</p>
+            <p><strong>Developed by:</strong> WesleyConsults</p>
+            <p><strong>Package:</strong> com.wesleyconsults.campusiq</p>
+          </div>
+        </header>
+
+        <h2>1. Overview</h2>
+        <p>UniMate ("the App") is an academic productivity application for Ghanaian university students, developed and published by WesleyConsults. This Privacy Policy explains what information the App collects, how it is used, and your rights regarding that information.</p>
+        <p>By installing or using UniMate, you agree to the practices described in this policy. If you do not agree, please uninstall the App.</p>
+
+        <h2>2. Information We Collect</h2>
+        
+        <h3>2.1 Information Stored Locally On Your Device</h3>
+        <p>UniMate operates as a fully local, account-free application. The following academic and study data is stored exclusively on your device using an on-device database (Isar). This data is never automatically uploaded to any server.</p>
+        <ul>
+          <li>University name and academic programme (selected or entered during onboarding)</li>
+          <li>Current and past semester courses, including course codes, names, credit hours, expected scores, and exam dates</li>
+          <li>Letter grades and numeric marks for past semester results</li>
+          <li>Timetable slots (class times, venues, days of the week)</li>
+          <li>Study session history (dates, durations, course tags, session type)</li>
+          <li>Daily and AI-generated study plans</li>
+          <li>Course notes authored by you</li>
+          <li>Attendance dates and streak data</li>
+          <li>Academic target (e.g., target CWA/GPA/CGPA)</li>
+          <li>App preferences and settings (theme, notifications, grading system, reminder times)</li>
+        </ul>
+
+        <h3>2.2 Information Transmitted When You Use AI Features</h3>
+        <p>UniMate includes optional AI-powered features. When you use these features, certain data is sent to our secure server-side proxy (campusiq-api.vercel.app), which routes requests to third-party AI providers (OpenAI and DeepSeek). No data is sent without a deliberate action on your part, except as noted below.</p>
+        <p><strong>User-triggered transmissions:</strong></p>
+        <ul>
+          <li>Result slip or registration slip import — a photo or PDF of your academic document is sent to the AI proxy for text extraction. The image contains course codes, names, marks, grades, semester CWA, programme name, and academic level as printed on the document.</li>
+          <li>Timetable import — a photo of your class timetable is sent for parsing of course codes, names, venues, and class times.</li>
+          <li>AI Study Plan — your course list, timetable free-time blocks, and study session patterns from the past four weeks are sent to generate a personalised study plan.</li>
+          <li>AI Weekly Review — your total study hours, per-course time breakdown, projected CWA/GPA, and active semester data are sent to generate a narrative academic review.</li>
+        </ul>
+        <p><strong>Automatic transmission:</strong></p>
+        <ul>
+          <li>Streak risk notification — if you have an active study streak and have not yet studied today, a background task automatically sends your current streak day count (e.g., "7-day streak") to the AI proxy to generate a personalised motivational notification message. No other personal data is included.</li>
+        </ul>
+        <p><strong>Important:</strong> The App never sends your name, email address, phone number, or any account identifier to any server. All AI requests are anonymous.</p>
+
+        <h3>2.3 Analytics and Crash Reporting</h3>
+        <p>UniMate uses two Google Firebase services to improve reliability and understand how the App is used:</p>
+        <ul>
+          <li>Firebase Crashlytics — automatically collects crash reports and error stack traces when the App encounters an unexpected failure. Reports may include the type of action being performed (e.g., import type, course count) but do not include personal academic data.</li>
+          <li>Firebase Analytics — collects anonymised usage events such as screen views, feature interactions (e.g., grading system selected, theme changed, session started), and five aggregated user properties: grading system in use, theme mode, notifications enabled (boolean), whether onboarding is complete (boolean), and whether a university is set (boolean — not the university name itself).</li>
+        </ul>
+        <p>No personal identifiers (name, email, phone, grades, scores) are included in Firebase data.</p>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>Data stored locally on your device is used solely to provide the App's features — academic planning, timetable management, study session tracking, and AI-assisted tools. It is not used for advertising, profiling, or any purpose unrelated to your academic productivity.</p>
+        <p>Data sent to the AI proxy is used only to generate the specific AI output you requested (parsed results, study plans, weekly reviews, or motivational notifications). It is processed transiently and is not retained by our proxy server beyond the duration of the request.</p>
+        <p>Firebase data is used to identify and fix crashes, and to understand aggregate feature usage patterns so we can improve the App.</p>
+
+        <h2>4. Data Sharing and Third Parties</h2>
+        <p>We do not sell, rent, or trade your data. Data is shared only as described below:</p>
+        <ul>
+          <li>AI proxy (campusiq-api.vercel.app, hosted on Vercel) — receives AI request payloads as described in Section 2.2. Vercel's infrastructure is subject to Vercel's privacy policy.</li>
+          <li>OpenAI and DeepSeek — receive requests routed through our proxy for AI text generation and image parsing. These providers process data under their respective privacy policies. Our proxy does not pass any user identifiers to these providers.</li>
+          <li>Google Firebase (Crashlytics and Analytics) — receives anonymised crash and usage data as described in Section 2.3. Subject to Google's privacy policy.</li>
+          <li>Google Fonts — the App downloads font files from Google Fonts at runtime. Google may log the request IP address per their standard infrastructure logging.</li>
+        </ul>
+        <p>No other third parties receive your data.</p>
+
+        <h2>5. Data Storage and Security</h2>
+        <p>All academic data (courses, grades, sessions, notes, timetable) is stored locally on your device in an encrypted Isar database. It never leaves your device unless you explicitly trigger an AI feature.</p>
+        <p>All network transmissions (AI requests, Firebase) use HTTPS (TLS encryption) in transit.</p>
+        <p>The App does not implement user accounts, passwords, or cloud sync. Your data is tied to your device and app installation.</p>
+
+        <h2>6. Camera and Media Access</h2>
+        <p>UniMate requests access to your device camera and photo gallery only when you choose to import a result slip, registration slip, or timetable via photo or PDF. The image is read into memory, encoded, and sent to the AI proxy for parsing. The original image is not saved to the App's local database — only the extracted academic data is stored.</p>
+        <p>You may decline camera or gallery access at any time through your device's app permission settings. Import features will be unavailable without these permissions, but all other App features continue to function.</p>
+
+        <h2>7. Notifications</h2>
+        <p>All notifications are generated and delivered locally on your device. UniMate does not use remote push notification services. Notifications are triggered by scheduled alarms and a daily background task based on your study activity data stored on-device.</p>
+        <p>You can disable individual notification types or all notifications through Settings &rarr; Notifications, or through your device's notification settings.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>UniMate is designed for university students aged 18 and above. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has used the App, please contact us at the address below and we will take appropriate steps.</p>
+
+        <h2>9. Your Rights and Data Control</h2>
+        <p>Because UniMate stores data locally and requires no account, you have direct control over your data at all times:</p>
+        <ul>
+          <li>Delete individual records — courses, sessions, timetable slots, notes, and past semester results can be deleted individually within the App.</li>
+          <li>Reset onboarding — Settings &rarr; Reset Onboarding clears your university name, programme name, and onboarding status.</li>
+          <li>Cancel all notifications — Settings &rarr; Cancel All Notifications removes all scheduled OS-level alarms.</li>
+          <li>Uninstall the App — uninstalling UniMate removes all locally stored data from your device permanently.</li>
+        </ul>
+        <p>For data transmitted to Firebase (crash reports and analytics), you may request deletion by contacting us at the email address below. Firebase data is anonymised and cannot be linked back to an individual user.</p>
+
+        <h2>10. Device Permissions</h2>
+        <p>UniMate requests the following Android permissions:</p>
+        <ul>
+          <li>INTERNET and ACCESS_NETWORK_STATE — required for AI features and Firebase connectivity.</li>
+          <li>POST_NOTIFICATIONS — required to display study reminders and streak alerts (Android 13+).</li>
+          <li>SCHEDULE_EXACT_ALARM and USE_EXACT_ALARM — required for precisely timed class and study reminders.</li>
+          <li>RECEIVE_BOOT_COMPLETED — restores scheduled notification alarms after your device restarts.</li>
+          <li>READ_MEDIA_IMAGES — required by the image picker when importing photos from your gallery.</li>
+          <li>VIBRATE and WAKE_LOCK — used by timer feedback and background task scheduling.</li>
+        </ul>
+        <p>No location, contacts, microphone, or calendar permissions are requested.</p>
+
+        <h2>11. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. When we do, the effective date at the top of this document will be updated. Continued use of UniMate after any changes constitutes your acceptance of the revised policy. For significant changes, we will notify you within the App.</p>
+
+        <h2>12. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
+        <p>
+          WesleyConsults<br>
+          Email: <a href="mailto:wesleyconsults@gmail.com">wesleyconsults@gmail.com</a><br>
+          Website: <a href="https://campusiq.app/privacy">https://campusiq.app/privacy</a><br>
+          Takoradi, Ghana
+        </p>
+
+        <p class="legal-meta" style="margin-block-start: 3rem;">This document was last reviewed on 23 May 2026 and reflects the UniMate v1.0 release build (com.wesleyconsults.campusiq).</p>
+      </article>
+    </div>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="footer-wrapper">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <h2>UniMate</h2>
+        <p>Your academic companion built for Ghanaian university students. Empowering study streams, CWA tracking, and timetable efficiency.</p>
+      </div>
+      <div class="footer-links-group">
+        <div class="footer-links-col">
+          <h3>Product</h3>
+          <ul>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="#">Download</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="mailto:wesleyconsults@gmail.com">Contact Support</a></li>
+            <li><span>WesleyConsults Product</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 WesleyConsults. All rights reserved. Takoradi, Ghana.</p>
+      <p>UniMate is developed and published by WesleyConsults.</p>
+    </div>
+  </footer>
+
+  <!-- Responsive Navigation Drawer Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const hamburger = document.getElementById('hamburger-btn');
+      const navLinks = document.querySelector('.nav-links');
+
+      if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+          const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+          hamburger.setAttribute('aria-expanded', !expanded);
+          hamburger.classList.toggle('active');
+          navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking navigation links
+        navLinks.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            hamburger.setAttribute('aria-expanded', 'false');
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>

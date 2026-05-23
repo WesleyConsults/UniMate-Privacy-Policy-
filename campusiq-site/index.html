@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="UniMate is the ultimate academic productivity companion app for Ghanaian university students. Track your CWA/GPA, manage class schedules, and build smart study habits.">
+  <title>UniMate — The Academic Companion Built for Ghanaian Students</title>
+  
+  <!-- Preloads & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header-wrapper">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" id="nav-brand">
+        <img src="assets/logo.png" alt="UniMate Logo" class="logo-img" width="36" height="36">
+        <span>UniMate</span>
+      </a>
+      
+      <!-- Desktop/Mobile Nav Links -->
+      <nav id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="mailto:wesleyconsults@gmail.com">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu Button -->
+      <button class="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false" id="hamburger-btn">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="hero-tag">Proudly Developed by WesleyConsults</span>
+          <h1 class="hero-title">UniMate: The academic companion built for <span>Ghanaian students</span></h1>
+          <p class="lead hero-description">
+            Track your CWA, manage your timetable, and build better study habits — all in one place. Built for KNUST, Legon, UCC, and universities across Ghana.
+          </p>
+          <div class="hero-actions">
+            <a href="#" class="btn-google-play" aria-label="Download UniMate on Google Play">
+              <!-- Inline Google Play Badge SVG to ensure rapid loading on mobile networks -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 40" width="160" height="48" style="border-radius: 6px; box-shadow: var(--shadow-sm);">
+                <rect width="135" height="40" rx="6" fill="#000000"/>
+                <path d="M16.3 7.8c-.2-.2-.5-.3-.9-.3h-.1L7.5 15l7.5 7.5.1-.1c.3.1.6 0 .8-.2l4.8-2.7c1.1-.6 1.1-1.6 0-2.2l-4.4-9.8z" fill="#00e5ff"/>
+                <path d="M7.5 15v10c0 .4.2.8.5 1l7.8-7.8-8.3-3.2z" fill="#ff3d00"/>
+                <path d="M15.8 18.2l-7.8-7.8c-.3.2-.5.6-.5 1v10l8.3-3.2z" fill="#ffeb3b"/>
+                <path d="M20.7 17.4l-4.4-2.5-7.5-7.5.5.5 8.1 4.6c1.1.6 1.1 1.6 0 2.2l3.3 2.7z" fill="#4caf50"/>
+                <!-- Wordmark fallback text styled elegantly inside SVG -->
+                <text x="42" y="16" fill="#ffffff" font-family="'Inter', sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.2">GET IT ON</text>
+                <text x="42" y="30" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700">Google Play</text>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-mockup-wrapper">
+          <div class="hero-mockup-placeholder" id="hero-mockup">
+            <img src="assets/mockup.jpeg" alt="UniMate App Interface Mockup" class="hero-mockup-img" width="300" height="600">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Everything you need to stay on top of your academics</h2>
+          <p class="lead">UniMate integrates academic target-setting, timetable reminders, offline accessibility, and custom study streams into a clean, modern interface.</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Card 1: CWA/GPA Planner -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+            <h3>CWA / GPA Planner</h3>
+            <p>Track your grades, set targets, and see your projected CWA in real time. Perfect for navigating Ghanaian grading systems.</p>
+          </article>
+
+          <!-- Card 2: Smart Timetable -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3>Smart Timetable</h3>
+            <p>Import your class schedule by photo and get reminders before every class. Never miss a lecture venue shift or slot.</p>
+          </article>
+
+          <!-- Card 3: Study Sessions -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3>Study Sessions</h3>
+            <p>Time your study sessions with Normal and Pomodoro modes. Build a daily streak and foster deep concentration habits.</p>
+          </article>
+
+          <!-- Card 4: AI Study Plan -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+            </div>
+            <h3>AI Study Plan</h3>
+            <p>Get a personalised weekly study plan generated from your actual timetable and habits using advanced AI models.</p>
+          </article>
+
+          <!-- Card 5: Weekly Review -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h3>Weekly Review</h3>
+            <p>Receive an AI-generated narrative of your academic week — what went well and what topics to focus on next.</p>
+          </article>
+
+          <!-- Card 6: Works Offline -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-3.536 4.978 4.978 0 011.414-3.536m0 0L8.464 11.29m-4.243 4.243L1.396 18.36M3.31 3.3l17.38 17.38" />
+              </svg>
+            </div>
+            <h3>Works Offline</h3>
+            <p>All your academic data stays securely on your device. No cloud sync, no sign-in barriers, and zero data cost.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Universities Section -->
+    <section class="unis-section">
+      <div class="container unis-container">
+        <h2 class="unis-header">Built for students at</h2>
+        <div class="unis-cloud">
+          <span class="uni-chip">KNUST</span>
+          <span class="uni-chip">UG</span>
+          <span class="uni-chip">UCC</span>
+          <span class="uni-chip">UMaT</span>
+          <span class="uni-chip">UEW</span>
+          <span class="uni-chip">UPSA</span>
+          <span class="uni-chip">GIMPA</span>
+          <span class="uni-chip">UniMAC</span>
+          <span class="uni-chip">UDS</span>
+          <span class="uni-chip">and more</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="footer-wrapper">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <h2>UniMate</h2>
+        <p>Your academic companion built for Ghanaian university students. Empowering study streams, CWA tracking, and timetable efficiency.</p>
+      </div>
+      <div class="footer-links-group">
+        <div class="footer-links-col">
+          <h3>Product</h3>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#">Download</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="mailto:wesleyconsults@gmail.com">Contact Support</a></li>
+            <li><span>WesleyConsults Product</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 WesleyConsults. All rights reserved. Takoradi, Ghana.</p>
+      <p>UniMate is developed and published by WesleyConsults.</p>
+    </div>
+  </footer>
+
+  <!-- Responsive Navigation Drawer Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const hamburger = document.getElementById('hamburger-btn');
+      const navLinks = document.querySelector('.nav-links');
+
+      if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+          const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+          hamburger.setAttribute('aria-expanded', !expanded);
+          hamburger.classList.toggle('active');
+          navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking navigation links
+        navLinks.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            hamburger.setAttribute('aria-expanded', 'false');
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>
